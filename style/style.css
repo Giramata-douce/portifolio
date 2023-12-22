@@ -1,3 +1,4 @@
+
 body{
     display: flex;
     flex-direction: column;
@@ -31,15 +32,16 @@ body{
     background: limegreen;
 }
 .me{
-    width: 100%;
+
     height: 100%;
     display: flex;
     align-items: center;
     padding: 0 10px;
     color: white;
-    margin-left: 300px;
+    margin-left: 100px;
     margin-top: 70px;
 }
+
 .me-mem h1{
     font-size: 20px;
     font-weight: 100;
@@ -141,6 +143,13 @@ body{
     font-size: 30px;
     color: white;
 } */
+
+.line-3
+{
+    height:50vh;
+    width: 0px;
+    border:2px solid  green;
+}
 .container2{
     display: flex;
     justify-content: space-around;
@@ -151,9 +160,33 @@ body{
     border-bottom: 1.5px solid lightgreen;
 }
 .line{
-    height: 400px;
+    height: 550px;
     background-color: lightgreen;
 }
+input{
+    width: 100%;
+}
+input[type=text]
+{
+    background-color: black;
+    border-bottom: 2px solid white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button{
+    padding: 12px 100px;
+    background-color: green;
+    color: white;
+  margin-top: 20px;
+ 
+}
+textarea{
+    background-color: black;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+
 .about{
     display: flex;
     justify-content: center;
@@ -161,13 +194,95 @@ body{
     font-size: 20px;
     font-weight: 10px;
 }
-.skill{
+.skill{ 
+    font-size: 30px;
+    font-weight: 10px;
     width: 200px;
     border-bottom: 1.5px solid lightgreen;
 }
+.lin
+{
+ width: 50px;
+color: 2px solid green;
+}
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+.par2{
+    font-size: 30px;
+}
+.icons{
+    font-size: 20px;
+}
+.menn{
+    font-weight: 100px;
+    font-size: 20px;
+    margin: 20px;
+}
 .container3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+
+}
+.project
+{
+    flex:1;
+}
+.project-1
+{
+    flex: 1;
+}
+.line2
+{
+ width: 50px;
+ color: 2px solid rgb(233, 49, 114);
+}
+
+.project>h3{
+    font-size: 30px;
+    font-weight: 20px;
+    color: white;
+}
+.par3{
+    
+    color: white;
+    font-size: 20px;
+    width: 40%;
+   
+}
+.par4{
+    color: white;
+    font-size: 20px;
+}
+.container4{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+h1>form{
+    width: 600px;
+    text-align: center;
+}
+.form input{
+    display: flex;
+    justify-content: center;
+}
+.input1 items{
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    color: gray;
+    border-radius: 6px;
+}
+.btn
+{
 
 }
